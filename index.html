@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Product list with cart</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./main.js"></script>
+  </head>
+  <body>
+    <div class="desserts">
+      <div class="container">
+        <div class="desserts__row">
+          <div class="catalog">
+            <h1 class="catalog__title">Desserts</h1>
+            <div class="catalog__grid">
+              <!-- catalog items from js -->
+            </div>
+          </div>
+          <div class="cart">
+            <h2 class="cart__title">Your Cart (0)</h2>
+            <div class="cart__empty">
+              <div class="cart__empty-img">
+                <img src="./assets/images/illustration-empty-cart.svg" alt="" />
+              </div>
+              <div class="cart__empty-text">Your added items will appear here</div>
+            </div>
+            <div class="cart__full hidden">
+              <div class="cart__items">
+                <!-- cart items from js -->
+              </div>
+              <div class="cart__total">
+                <div class="cart__total-text">Order Total</div>
+                <div class="cart__total-price">$46.50</div>
+              </div>
+              <div class="cart__delivery">
+                <div class="cart__delivery-img">
+                  <img src="./assets/images/icon-carbon-neutral.svg" alt="" />
+                </div>
+                <div class="cart__delivery-text">
+                  This is a <span>carbon-neutral</span> delivery
+                </div>
+              </div>
+              <div class="cart__confirm">
+                <button class="cart__confirm-btn">Confirm Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="order-modal hidden">
+          <div class="order-modal__card">
+            <div class="order__img">
+              <img src="./assets/images/icon-order-confirmed.svg" alt="" />
+            </div>
+            <div class="order__title">Order Confirmed</div>
+            <div class="order__subtitle">We hope you enjoy your food</div>
+
+            <div class="order__cart">
+              <div class="order__cart-items">
+                <!-- order items from js -->
+              </div>
+              <div class="order__cart-total">
+                <div class="order__cart-total__text">Order Total</div>
+                <div class="order__cart-total__price">$46.50</div>
+              </div>
+            </div>
+            <div class="order__cart-btn__wrapper">
+              <button type="button" class="order__cart-btn">Start New Order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
