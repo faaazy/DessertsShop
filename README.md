@@ -1,4 +1,4 @@
-# Frontend Mentor - Product list with cart
+# Frontend Mentor Challenge - [Product list with cart](https://faaazy.github.io/DessertsShop/)
 
 ![Design preview for the Product list with cart coding challenge](./preview.jpg)
 
